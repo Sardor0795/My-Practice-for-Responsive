@@ -325,6 +325,7 @@ input {
         height: 100vh;
         text-align: center;
         overflow: hidden;
+        overflow-x: hidden;!important
     } 
 }
 
@@ -355,7 +356,7 @@ input {
         margin: 10px 0;
     }
     .card_section {
-        height: 1400px;
+        height: 1430px;
     }
     .card_section .card_box{
         margin-top: 60px;
