@@ -297,7 +297,7 @@ input {
     }
     .nav input:checked ~ span:after{
         opacity: 1;
-        transform: rotate(-46deg) translate(100px, 0px);
+        transform: rotate(-46deg) translate(200px, 0px);
         background-color: #000000;
     }
     .nav input:checked ~ span:before{
