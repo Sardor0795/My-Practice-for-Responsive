@@ -57,6 +57,7 @@ header {
   height: 65px;
   position: sticky;
   top: 0;
+  z-index: 200;
 }
 header .logo {
     line-height: 60px;
@@ -101,7 +102,7 @@ header ul li:last-child a {
 header ul li:last-child a:hover {
     background-color: #ff0000;
 }
-input {
+header input {
     display: none;
 }
 
@@ -232,6 +233,447 @@ input {
     padding: 10px 20px;
 }
 
+/* --------- Trial Section ---------- */
+    
+.trial_section {
+     height: 550px;
+    background-image: url("../img/bg-img/trial-bg.png");
+     background-size: cover;
+}
+.trial_section img {
+    width: 100%;
+    margin-top: 50px;
+}
+.trial_section .text{
+    margin-top: 110px;
+}
+.trial_section .text a{
+    display: inline-block;
+    background-color: #EBE7FF;
+    padding: 5px 15px;
+    color: #5b41d7;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 7px;
+    margin-bottom: 10px;
+}
+.trial_section .text h3{
+    font-size: 30px;
+    color: #ffffff;
+}
+.trial_section .text p{
+    color: rgb(255, 255, 255);
+    margin: 10px 0 10px 0;
+    line-height: 25px;
+}
+.trial_section .text .button{
+    display: inline-block;
+    margin: 5px 0 0 12px;
+    text-transform: uppercase;
+    color: #ffffff;
+    background-color: #896EFF;
+    font-size: 9px;
+    font-weight: bold;
+    padding: 12px 25px;
+    border-radius: 10px;
+}
+.trial_section .card{
+    margin-top: 60px;
+    width: 100%px;
+    height: 120px;
+    background-color: #A893FF;
+    border-radius: 20px;
+    position: relative;
+}
+.trial_section .card input{
+    width: 95%;
+    margin: 25px 0 10px 12px;
+    height: 28px;
+    border-radius: 15px;
+    outline: none;
+    font-weight: 500;
+    padding-left: 30px;
+}
+.trial_section .card svg{
+    position: absolute;
+    top: 27px;
+    left: 19px;
+    width: 20px;
+    opacity: .8;
+}
+
+/* --------- Work Section ---------- */
+
+.work_section {
+    height: 800px;
+    padding-top: 60px;
+    background-color: #F9F8FF;
+}
+
+.work_section .card_box {
+    margin-top: 60px;
+}
+.work_section .card_box .card {
+    padding: 20px;
+    width: 75%;
+    margin: 0 auto;
+    height: 270px;
+    border-radius: 10px;
+    background-color: #FDFDFE;
+    box-shadow: 0 0 15px rgba(39, 77, 191, 0.138);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: -15px;
+}
+.work_section .card_box .card img {
+    width: 100%;
+}
+.work_section .card_box .card h3 {
+    font-size: 15px;
+    font-weight: 600;
+    margin: 18px 0 13px 0;
+    color: #1F2471;;
+}
+.work_section .card_box .card p {
+    font-size: 12px;
+}
+.work_section .space {
+    margin-top: 60px;
+}
+
+/* ---------- User Section ----------- */
+
+.user_section {
+    height: 550px;
+    background-color: #F9F8FF;
+}
+.user_section img {
+    width: 100%;
+}
+.user_section .block {
+    padding-top: 23px;
+}
+.user_section .box{
+    display: flex;
+    align-items: center;
+    width: 90%;
+    height: 100px;
+    box-shadow: 0 0 10px #5c586d43;
+    margin-bottom: 45px;
+}
+
+.user_section .box img{
+    width: 60px;
+    margin: 0 15px;
+}
+
+.user_section .box h4{
+    font-size: 15px;
+    color: #0c0c0cd2;
+    margin-bottom: 5px;
+}
+
+.user_section .box p{
+    font-size: 13px;
+    color: #858080;
+    width: 80%;
+}
+
+/* -------------- Business Section --------------- */
+
+.section8{
+    background-color: #ECF6FD;
+    height: 670px;
+    padding-top: 70px;
+}
+
+.section8 .txt{
+    text-align: center;
+    padding-top: 50px;
+}
+
+.section8 .txt a{
+    display: inline-block;
+    background-color: #EBE7FF;
+    padding: 5px 15px;
+    color: #5B41D7;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 7px;
+    margin: 15px;
+}
+
+.section8 .txt h3{
+    color: #13287E;
+    font-size: 25px;
+}
+
+.section8 .txt p{
+    color: rgba(106, 102, 102, 0.755);
+    width: 40%;
+    margin: 15px auto;
+}
+
+.section8 .boxes{
+    margin-top: 60px;
+}
+
+.section8 .box {
+    height: 330px;
+    text-align: center;
+}
+
+.section8 .box span{
+    display: inline-block;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 30px 0 10px 0;
+    color: rgb(56, 55, 55);
+}
+
+.section8 .box h2{
+    color: #3964F9;
+    font-size: 28px;
+}
+
+.section8 .box p{
+    font-size: 12px;
+    color: rgb(114, 118, 118);
+    line-height: 22px;
+}
+
+.section8 .box .time{
+    margin: 15px 0 20px 0;
+}
+
+.section8 .box a{
+    display: inline-block;
+    margin: 20px 0 20px 0;
+    text-transform: uppercase;
+    color: #ffffff;
+    background-color: #896EFF;
+    font-size: 7px;
+    font-weight: bold;
+    padding: 8px 35px;
+    border-radius: 10px;
+}
+
+.section8 .shadow{
+    width: 70%;
+    margin: 0 auto;
+    box-shadow: 0 0 15px rgba(59, 71, 155, 0.46);
+}
+
+/* ----------- Footer Section ---------- */
+
+.footerSection {
+    height: 1200px;
+    background-image: url("../img/bg-img/footer-bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #F9F8FF;
+    padding-top: 70px;
+    position: relative;
+}
+.footerSection .txt{
+    text-align: center;
+}
+
+.footerSection .txt a{
+    display: inline-block;
+    background-color: #EBE7FF;
+    padding: 5px 15px;
+    color: #5B41D7;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 7px;
+    margin: 15px;
+}
+
+.footerSection .txt h3{
+    color: #13287E;
+    font-size: 25px;
+}
+
+.footerSection .txt p{
+    color: rgba(106, 102, 102, 0.755);
+    width: 40%;
+    margin: 15px auto;
+}
+
+.footerSection .cards{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.footerSection .card{
+    background-color: #fff;
+    width: 350px;
+    height: 230px;
+    border-radius: 10px;
+    text-align: center;
+    margin-right: 20px;
+}
+
+.footerSection .card img{
+    width: 60px;
+    border-radius: 50%;
+    margin-top: 15px;
+}
+
+.footerSection .card h4 {
+    color: rgba(36, 35, 35, 0.707);
+}
+
+.footerSection .card p{
+    font-size: 12px;
+    line-height: 15px;
+    width: 80%;
+    margin: 10px auto;
+    color: rgb(119, 117, 117);
+}
+
+.footerSection .smallButtons{
+    text-align: center;
+}
+
+
+.footerSection .smallButtons a{
+    display: inline-block;
+    margin: 50px 10px 30px 0;
+    color: black;
+    width: 35px;
+    height: 35px;
+    background-color: #fff;
+    padding: 7px;
+    border-radius: 50%;
+    font-size: 15px;
+    text-align: center;
+    transition: .3s ease;
+}
+
+.footerSection .smallButtons a:hover,.footerSection .smallButtons a.active{
+    background-color: #42D897;
+    color: white;
+}
+
+
+.footerSection .block .inner{
+    background-color: #4742F6;
+    height: 130px;
+    text-align: center;
+    margin: 100px auto;
+    width: 90%;
+    padding: 20px;
+    position: relative;
+    border-radius: 15px;
+}
+
+.footerSection .block .txt{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.footerSection .block h3{
+color: rgb(187, 182, 182);
+}
+
+.footerSection .block h2{
+    color: rgb(218, 210, 210);
+    margin-top: 10px;
+}
+
+
+.footerSection .block .button a{
+    display: inline-block;
+    font-size: 10px;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #FB585A;
+    padding: 12px 22px;
+    border-radius: 5px;
+    margin-right: 30px;
+    position: absolute;
+    right: 0;
+    top: 50px;
+}
+
+/* footer */
+
+.footer{
+    margin: 0 auto;
+    width: 90%;
+}
+
+.footer .logo{
+    align-items: center;
+}
+
+.footer .logo:hover{
+    cursor: pointer;
+}
+
+.footer .logo img{
+    position: relative;
+    top: -10px;
+    display: inline;
+    width: 40px;
+    margin-right: 5px;
+}
+
+.footer .logo h2{
+    display: inline;
+    font-weight: 500;
+    color: #4D4A4A;
+    position: relative;
+    top: -46px;
+    left: -20px;
+}
+
+.footer .footerTxt1,.footerTxt2,.footerTxt3,.footerTxt4 p{
+    font-size: 15px;
+    color: #ffffff;
+    line-height: 20px;
+}
+
+.footer .footerTxt2 p{
+margin-left: 100px;
+}
+
+.footer .footerTxt1 p{
+    margin-top: -40px;
+    }
+
+.bx{
+    margin-top: 5px;
+    padding: 4px;
+    background-color: #42D897;
+}
+
+.bx:hover{
+    cursor: pointer;
+}
+
+
+.footerSection .topButton .top{
+    position: absolute;
+    bottom: 90px;
+    right: 30px;
+    color: #000;
+    font-weight: bold;
+    transform: rotate(-90deg);
+}
+
+.footerSection .topButton span{
+    display: inline-block;
+    width: 30px;
+    margin: 0 10px 4px 0;
+    border-top: 3px solid #000;
+    
+}
 
 
 
@@ -379,7 +821,7 @@ input {
         height: 100vh;
         text-align: center;
         overflow: hidden;
-        overflow-x: hidden;!important
+        overflow-x: hidden;
     } 
 }
 
@@ -416,11 +858,33 @@ input {
         margin-top: 60px;
     }
     .team_section {
-        height: 2300px;
+        height: 2230px;
     }
-    
-    /* --------- Trial Section ---------- */
-    
-    
-    
+    .trial_section {
+        height: 970px;
+    }
+    .work_section {
+        height: 1460px;
+    }
+    .user_section {
+        height: 820px;
+    }
+    .user_section .box{
+        display: flex;
+        align-items: center;
+        width: 100%;
+        height: 100px;
+        box-shadow: 0 0 10px #5c586d43;
+        margin-bottom: 45px;
+        margin-top: 30px;
+    }
+    .user_section .box p {
+        font-size: 11px;
+    }
+    .section8 {
+        height: 1300px;
+    }
+    .footerSection  {
+        height: 1500px;
+    }
 }
