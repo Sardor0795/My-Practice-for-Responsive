@@ -50,7 +50,7 @@ a {
     font-weight: 500;
 }
 
-/* -------------- HEADER ------------- */
+/* ---------------------- HEADER ---------------------- */
 
 header {
   background-color: #F6F9FF;
@@ -106,7 +106,7 @@ header input {
     display: none;
 }
 
-/* ---------- Remote Section ---------- */
+/* --------------------- Remote Section ------------------- */
  
 .remote_section {
     height: 460px;
@@ -144,7 +144,7 @@ header input {
     width: 100%;
 }
 
-/* ---------- Partners ---------- */
+/* ----------------------- Partners ------------------------- */
 
 .partners .image {
     margin-top: 60px;
@@ -160,7 +160,7 @@ header input {
     margin: 60px 0 70px 0;
 }
 
-/* ---------- Card Section ---------- */
+/* ----------------------- Card Section ---------------------- */
 
 .card_section {
     height: 800px;
@@ -195,7 +195,7 @@ header input {
     font-size: 12px;
 }
 
-/* ---------- Team Section ----------- */
+/* ---------------------- Team Section ----------------------- */
 
 .team_section {
     background-color: #F9F8FF;;
@@ -233,7 +233,7 @@ header input {
     padding: 10px 20px;
 }
 
-/* --------- Trial Section ---------- */
+/* --------------------- Trial Section --------------------- */
     
 .trial_section {
      height: 550px;
@@ -302,7 +302,7 @@ header input {
     opacity: .8;
 }
 
-/* --------- Work Section ---------- */
+/* --------------------- Work Section --------------------- */
 
 .work_section {
     height: 800px;
@@ -341,7 +341,7 @@ header input {
     margin-top: 60px;
 }
 
-/* ---------- User Section ----------- */
+/* --------------------- User Section ---------------------- */
 
 .user_section {
     height: 550px;
@@ -379,7 +379,7 @@ header input {
     width: 80%;
 }
 
-/* -------------- Business Section --------------- */
+/* ------------------- Business Section --------------------- */
 
 .section8{
     background-color: #ECF6FD;
@@ -464,7 +464,7 @@ header input {
     box-shadow: 0 0 15px rgba(59, 71, 155, 0.46);
 }
 
-/* ----------- Footer Section ---------- */
+/* ----------------------- Footer Section -------------------------- */
 
 .footerSection {
     height: 1200px;
